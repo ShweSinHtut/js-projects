@@ -52,10 +52,10 @@
   cursor: pointer;
 }
 .prev-arrow {
-  left: 17rem;
+  left: 10rem;
 }
 .next-arrow {
-  right: 17rem;
+  right: 10rem;
 }
 .arrows i {
   font-size: 2rem;
