@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <style>
+    img {
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="images">
+    <img src="./images/candy-cane.jpg" alt="">
+    <img src="./images/christmas-carols.png" alt="">
+    <img src="./images/christmas-tree.jpg" alt="">
+  </div>
+
+  <script>
+    const images = document.querySelectorAll('.images > img');
+    console.log(images);
+    console.log( typeof images);
+
+    console.log(images[0]);
+  </script>
+</body>
+</html>
